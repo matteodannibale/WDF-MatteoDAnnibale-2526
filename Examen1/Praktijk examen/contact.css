@@ -1,0 +1,30 @@
+img {
+  width: 50%;
+}
+
+footer {
+    background-color: red;
+}
+
+header {
+    background-color: red;
+}
+
+
+aside {
+    text-align: right;
+    display: flex;
+}
+
+th {
+    background-color: blue;
+}
+
+nav {
+    text-align: center;
+}
+
+figcaption {
+    display: block;
+    justify-content: center;
+}

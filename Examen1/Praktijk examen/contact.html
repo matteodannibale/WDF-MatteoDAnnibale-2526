@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaffèLuna - Contact</title>
+    <link rel="stylesheet" href="contact.css">
+  </head>
+  <body>
+    <header>
+      <img src="img/logo.png" href="index.html" alt="Logo caffè Luna">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Contact</h1>
+      <p>
+        Heb je een vraag. Suggestie of wil je reserveren? Vul het formulier in
+        en we nemen snel contact met je op.
+      </p>
+      <form>
+        <fieldset>
+          <legend>Jouw gegevens</legend>
+
+          <label for="naam">Naam:</label>
+          <input
+            type="text"
+            id="naam"
+            name="naam"
+            placeholder="Voornaam Achternaam"
+          ><br><br>
+
+          <label for="email">E-mailadres:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="naam@voorbeeld.be"
+          ><br><br>
+
+          <label for="telefoon">Telefoon:</label>
+          <input
+            type="text"
+            id="telefoon"
+            name="telefoon"
+            placeholder="+32 4..."
+          ><br><br >
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Bericht</legend>
+          <label for="vraag">Onderwerp:</label> <br>
+          <select id="vraag" name="algemenevraag">
+            <option value="vraag">Algemene vraag</option>
+            <option value="vraag">Algemen vraag</option>
+            <option value="vraag">algemene vraag</option></select
+          ><br><br>
+
+          <label> Contact voorkeur:</label><br>
+          <input type="radio" id="emaill" name="voorkeur" value="emaill">
+          <label for="emaill">email</label><br>
+          <input type="radio" id="telefoon1" name="voorkeur" value="telefoon">
+          <label for="telefoon1">telefoon</label><br><br>
+
+          <label for="opmerkingen">bericht *:</label><br>
+          <textarea
+            id="opmerkingen"
+            name="opmerkingen"
+            rows="4"
+            cols="40"
+            placeholder="Typ je boodschap ..."
+          ></textarea
+          ><br><br>
+
+          <input
+            type="checkbox"
+            id="nieuwsbrief"
+            name="nieuwsbrief"
+            value="nieuwsbrief"
+          >
+          <label for="emaill">Ik wil de nieuwsbrief ontvangen</label><br>
+          <input type="checkbox" id="akkoord" name="akkoord" value="akkoord">
+          <label for="akkoord"
+            >Ik ga akkoord met de verwerking van mijn gegevens</label
+          ><br>
+        </fieldset>
+        <br>
+        <button type="submit">Verzenden</button>
+        <button type="submit">wissen</button>
+      </form>
+
+      <h2>Vind ons</h2>
+      <iframe
+        src="https://www.google.com/maps?q=Brooklyn,+NY,+USA&output=embed"
+        width="400"
+        height="300"
+        allowfullscreen=""
+        loading="lazy"
+      >
+      </iframe>
+    </main>
+
+    <footer>
+      <section>
+        <p>Oude markt 1, 3000 Leuven</p>
+        <p>hallo@caffeluna.ltd</p>
+        <p>0412/34.56.78</p>
+      </section>
+
+      <strong
+        >Open van maandag tot zaterdag. 8u tot 18u. <br>
+        Zondag gesloten</strong
+      >
+
+      <p>&copy; CaffèLuna. Alle rechten voorbehouden.</p>
+    </footer>
+  </body>
+</html>
